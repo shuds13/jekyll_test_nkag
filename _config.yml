@@ -29,7 +29,7 @@ markdown: kramdown
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-include-cache
 
 # Exclude from processing.
