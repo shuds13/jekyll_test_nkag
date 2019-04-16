@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-# gem group: :jekyll_plugins
 
-# gem "tzinfo-data"
 
-gem "jekyll", "~> 3.5"
-gem "minimal-mistakes-jekyll"
+gem "tzinfo-data"
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# gem "minimal-mistakes-jekyll"
 
 gem "jekyll-include-cache"
 
