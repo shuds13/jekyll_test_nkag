@@ -31,7 +31,6 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-include-cache
 
 # Exclude from processing.
