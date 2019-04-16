@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: "mmistakes/minimal-mistakes@4.14.1"
+remote_theme: "mmistakes/minimal-mistakes"
 
 title: Testing page
 email: shudson@anl.com
@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  shuds13
+#github_username:  shuds13
 
 # Build settings
 markdown: kramdown
@@ -34,24 +34,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-data
 
-minimal_mistakes_skin: "air"
-title_separator: "|"
-breadcrumbs: true
-paginate: 10
-paginate_path: /page:num/
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      read_time: true
-      author_profile: true
-      share: true
-related: true  
-  
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
